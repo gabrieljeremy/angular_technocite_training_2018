@@ -1,0 +1,5 @@
+<ul>
+  <li *ngFor="let name of names">
+    <app-user-item [name]="name"></app-user-item> <!-- Binding : [] lie ma propriété name de mon component user-item à la variable name de la boucle -->
+  </li>
+</ul>
