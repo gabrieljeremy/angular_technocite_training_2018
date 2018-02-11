@@ -1,0 +1,20 @@
+.votes {
+    background:lightgrey;
+    padding:15px;
+}
+.voters {
+    padding:0;
+}
+.voters a {
+    color:white;
+    padding:10px 20px;
+}
+.voters li {
+    display:inline-block;
+}
+.voters li:first-child a {
+    background:green;
+}
+.voters li:last-child a{
+    background:red;
+}

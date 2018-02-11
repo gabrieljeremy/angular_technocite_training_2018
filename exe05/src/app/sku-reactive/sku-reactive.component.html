@@ -1,0 +1,25 @@
+<div class="ui raised segment">
+    <h2 class="ui header">
+      Demo Form SKU
+    </h2>
+    <form [formGroup] = "myForm" (ngSubmit)="onSubmit(myForm.value)" class="ui form">
+      <div class="field" >
+        <label for="skuInput">SKU</label>
+        <input type="text" id="skuInput" placeholder="SKU" name="sku" [formControl] = "myForm.controls['sku']" >
+        <div *ngIf="!sku.valid">
+          SKU is required
+        </div>
+      </div>
+      <div class="field">
+        <label for="emailInput">EMAIL</label>
+        <input type="text" id="emailInput" placeholder="Email" name="email" [formControl]="myForm.controls['email']">
+        <div *ngIf="email.hasError('required')">
+          Email is required
+        </div>
+        <div *ngIf="email.hasError('email')">
+            Must be an email
+        </div>
+      </div>
+      <button type="submit" class="ui button">SUBMIT</button>
+    </form>
+  </div>

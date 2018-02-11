@@ -1,0 +1,3 @@
+<div class="ui items">
+  <app-products-row *ngFor="let myProduct of productList" [product]="myProduct" (onSelectedProduct)="selectProduct($event)"></app-products-row>
+</div>

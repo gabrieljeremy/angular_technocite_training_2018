@@ -1,0 +1,42 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  margin:0;
+  padding:0;
+}
+.container {
+  max-width:1200px;
+  margin:0 auto;
+}
+nav {
+  background:darkslategrey;
+  margin-top:0;
+}
+ul {
+  margin:0;
+  padding:0;
+}
+ul li {
+  display:inline-block;
+  margin-right:2rem;
+}
+ul li a {
+  color:white;
+  display:inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size:1.1rem;
+  padding:10px 0px;
+}
+ul li a:hover {
+  color:black;
+}
+nav {
+  background:darkslategrey;
+  margin-top:0;
+}
+.navLinks {
+  background:darkblue;
+  margin-top:0;
+}
+
+
