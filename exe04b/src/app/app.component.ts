@@ -12,5 +12,5 @@ import { ProductService } from './product.service';
 })
 export class AppComponent {
   title = 'app';
-  constructor(public productService : ProductService) {} // pour passer un service dans son composant public : pour que la vue y accède
+  constructor(public productService: ProductService) {} // pour passer un service dans son composant public : pour que la vue y accède
 }

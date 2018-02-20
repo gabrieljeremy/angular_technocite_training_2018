@@ -9,7 +9,7 @@ import { Article } from './article.model';
 })
 export class ArticleComponent implements OnInit {
 
-  @HostBinding('attr.class') cssClass= 'row';
+  @HostBinding('attr.class') cssClass = 'row';
   @Input() article: Article;
 
   // title: string;

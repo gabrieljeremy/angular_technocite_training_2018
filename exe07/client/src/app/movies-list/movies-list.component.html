@@ -1,0 +1,9 @@
+<div class="container">
+  <div class="movie-list">
+      <div class="row" *ngFor="let chunk of visualMovies">
+        <div class="col s12 m3" *ngFor="let movie of chunk">
+          <app-movie [movie]="movie"></app-movie>
+        </div>
+      </div>
+    </div>
+</div>

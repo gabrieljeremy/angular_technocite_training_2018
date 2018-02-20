@@ -12,5 +12,4 @@ export class ProductsImageComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }

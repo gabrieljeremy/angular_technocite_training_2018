@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
-import { Article } from './article/article.model'
-
+import { Article } from './article/article.model';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
@@ -14,7 +13,7 @@ export class AppComponent {
       new Article('Angular', 'https://www.angular.io', 50),
       new Article('Vue.js', 'https://www.vuejs.org', 40),
       new Article('Ember', 'https://www.emberjs.com', 30),
-    ]
+    ];
   }
   addArticle(title: HTMLInputElement, link: HTMLInputElement) {
     this.articles.push(new Article(title.value, link.value, Math.floor(Math.random() * 40)));

@@ -29,7 +29,7 @@ export class ProductService {
       )
     ];
   }
-  getProducts() : Product[] {
+  getProducts(): Product[] {
     return this.products;
   }
   deleteProduct(product: Product) {

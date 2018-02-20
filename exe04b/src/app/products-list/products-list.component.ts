@@ -9,6 +9,5 @@ import { Product } from '../product.model';
 export class ProductsListComponent implements OnInit {
   @Input() productList: Product[];
   constructor() {}
-  
   ngOnInit() {}
 }
